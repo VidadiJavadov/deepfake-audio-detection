@@ -216,3 +216,19 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Dataset - do not push
+data/raw/
+data/processed/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+
+# Model checkpoints
+checkpoints/
+outputs/
+*.h5
+*.keras
